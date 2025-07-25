@@ -1,7 +1,8 @@
 title: slic-reveng
 description: Reverse-engineering subject-level neuroimaging data from meta-analyses
 baseurl: "" # leave this blank for root
-url: "https://slic-lab.github.io/slic-reveng/" # change to your GitHub Pages URL
+url: "https://slic-lab.github.io/slic-reveng/"
+repository: slic-lab/slic-reveng
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0" # check GitHub for latest release
 
