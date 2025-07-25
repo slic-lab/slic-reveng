@@ -10,8 +10,8 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "SLIC"
 description              : Reverse-engineering subject-level neuroimaging data from meta-analyses
-baseurl                  : "" # leave this blank for root
-url                      : "https://slic-lab.github.io/slic-reveng/"
+baseurl: "/slic-reveng"
+url: "https://slic-lab.github.io"
 repository               : slic-lab/slic-reveng
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
