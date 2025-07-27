@@ -1,7 +1,6 @@
 #theme                  : "minimal-mistakes-jekyll"
-#remote_theme           : "mmistakes/minimal-mistakes"
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "default"
 
 # Site Settings
 locale                   : "en-US"
@@ -282,7 +281,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true
