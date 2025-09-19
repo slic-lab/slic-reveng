@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+slic-reveng/__init__.py
+slic_reveng.egg-info/PKG-INFO
+slic_reveng.egg-info/SOURCES.txt
+slic_reveng.egg-info/dependency_links.txt
+slic_reveng.egg-info/top_level.txt

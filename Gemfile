@@ -1,7 +1,7 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache"
+gem 'jekyll', '~> 4.2'
 
-# Pin ffi to avoid RubyGems incompatibility
-gem "ffi", "< 1.17"
+group :jekyll_plugins do
+  gem 'jekyll-timeago', '~> 0.13.1'
+end

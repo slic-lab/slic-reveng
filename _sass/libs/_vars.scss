@@ -1,0 +1,47 @@
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		menu:				0.35s,
+		transition:			0.2s,
+		banner:				2.5s
+	);
+
+// Size.
+	$size: (
+		border-radius:		4px,
+		element-height:		2.75em,
+		element-margin:		2em,
+		inner:				65em
+	);
+
+// Font.
+	$font: (
+		family:				('Raleway'),
+		family-fixed:		('Raleway'),
+		weight:				300,
+		weight-bold:		600,
+		letter-spacing:		0.025em,
+		letter-spacing-alt:	0.25em
+	);
+
+// Palette.
+	$palette: (
+		bg:					#ffffff,
+		bg-alt:				#005F32,
+		fg:					#005F32,
+		fg-bold:			#005F32,
+		fg-light:			rgba(244,244,255,0.2),
+		border:				rgba(212,212,255,0.1),
+		border-bg:			rgba(212,212,255,0.035),
+		highlight:			#007B8A,
+		accent1:			#228B22,
+		accent2:			#005F32,
+		accent3:			#2E8B57,
+		accent4:			#00A86B,
+		accent5:			#005F32,
+		accent6:			#228B22
+	);

@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: slic-reveng
+Version: 0.1.0
+Summary: Reverse-engineering tools for brain imaging
+Home-page: https://github.com/slic-lab/slic-reveng
+Author: SLIC
+Author-email: Your Name <your@email.com>
+License: MIT
+Project-URL: Homepage, https://github.com/yourusername/slic-reveng
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+
+# slic-reveng
+A computational framework for reverse-engineering subject-level neuroimaging data from meta-analytic summary statistics and interpolating to vertexwise resolution.

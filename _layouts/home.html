@@ -1,20 +1,49 @@
----
-layout: archive
----
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
-{{ content }}
+{% include head.html %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<body>
 
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+    {% include header.html %}
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html entries=posts type=entries_layout %}
-</div>
+    <!-- Banner 
+    <section id="banner" class="major">
+        <div class="inner">
+            <p style="text-transform: none; transform: translateY(-16.88em); font-weight: normal; text-align: center;">{{ site.description }}</p>
+        </div>
+    </section>
+    -->
 
-{% include paginator.html %}
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Zero -->
+        <section id="two" style="background-color: #3c875e;">
+            <div class="inner">
+                <p style="color: #ffffff; text-align: center;">
+                    <i><b style="color: #ffffff;">slic-reveng</b></i> is a computational framework for <b style="color: #ffffff;">rev</b>erse-<b style="color: #ffffff;">eng</b>ineering subject-level 
+                    neuroimaging data from meta-analytic summary statistics and interpolating to vertexwise resolution.
+                </p>
+            </div>
+        </section>
+
+        <!-- Spacer -->
+        <section style="background-color: #ffffff; padding: 0.33em 0;">
+
+        </section>
+        
+        <!-- One -->
+        {% include tiles.html %}
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

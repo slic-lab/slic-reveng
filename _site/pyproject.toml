@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slic-reveng"
+version = "0.1.0"
+description = "Reverse-engineering tools for brain imaging"
+authors = [{ name = "Your Name", email = "your@email.com" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.7"
+dependencies = []
+urls = { Homepage = "https://github.com/yourusername/slic-reveng" }
