@@ -3,8 +3,8 @@ title: slic-reveng
 subtitle: ' &nbsp; | &nbsp; documentation'
 email: sara.lariviere@usherbrooke.ca
 description: ''
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://slic-lab.github.io/slic-reveng" # the base hostname & protocol for your site
+baseurl: "/slic-reveng" 
+url: "https://slic-lab.github.io"  # the base hostname & protocol for your site
 author: Sara Larivière
 street_address: 3001, 12e Avenue Nord
 city: Sherbrooke
