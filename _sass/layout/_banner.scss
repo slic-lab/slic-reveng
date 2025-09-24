@@ -4,11 +4,10 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
-/* Banner 
+/* Banner */
 
 	#banner {
 		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("../images/my_img/banner4.png")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
@@ -17,9 +16,9 @@
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 60vh;
+		height: 8vh;
 		margin-bottom: -3.25em;
-		max-height: 32em;
+		max-height: 28em;
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
@@ -42,6 +41,8 @@
 
 		h1 {
 			font-size: 3.25em;
+			margin-left: 0 !important;  // ← add this
+  			padding-left: 0 !important;
 		}
 
 		> .inner {
@@ -51,6 +52,7 @@
 				'filter 0.5s ease',
 				'-webkit-filter 0.5s ease'
 			));
+			@include inner;    
 			padding: 0 !important;
 			position: relative;
 			z-index: 2;
@@ -61,6 +63,7 @@
 
 			header {
 				width: auto;
+				text-align: left;     
 
 				> :first-child {
 					width: auto;
@@ -175,4 +178,3 @@
 			}
 		}
 	}
-*/

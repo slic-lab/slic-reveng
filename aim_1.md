@@ -9,6 +9,7 @@ weight: 1
 
 <!-- Main -->
 <div id="main" class="alt">
+<br>
 <p><b>You can install <i>slic-reveng</i> by running the following:</b></p>
 <pre><code class="language-bash">pip install slic-reveng</code></pre>
 
