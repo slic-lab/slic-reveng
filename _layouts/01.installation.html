@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<head>
+    <!-- ... existing head content ... -->
+  
+    <!-- Optional: Load a custom monospace font -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  
+    <!-- Custom code block styling -->
+    <style>
+
+      pre code {
+        background-color: rgba(60, 135, 94, 0.306);
+        color: #333333;
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 14px;
+        padding: 1em;
+        border-radius: 8px;
+        display: block;
+        overflow-x: auto;
+      }
+  
+      pre {
+        margin-left: 1.33em;
+        margin-top: -1em;
+        margin-right: 1.33em;
+      }
+
+      #banner header.major h1 {
+        color: #333333;
+      }
+  
+    #main.alt p {
+        margin-left: 1.33em;
+        }
+
+        #main.alt p,
+        #main.alt pre {
+        margin-top: 0 !important;
+        margin-bottom: 0.33em;
+        border-top: none !important;
+        box-shadow: none !important;
+        background-image: none !important;
+        }
+
+        #main.alt p::before,
+        #main.alt pre::before {
+        content: none !important;
+        }
+    </style>
+  </head>
+
+<body>
+    <script type="text/javascript">document.body.classList.add("is-loading");</script>
+
+    {% include header.html %} 
+    
+    <section id="banner" class="style2">
+        <div class="inner">
+            <span class="image">
+                <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+            </span>
+            <header class="major">
+
+                <h1>{{ page.title }}</h1>
+
+            </header>
+            <div class="content">
+
+                {{ page.description }}
+
+            </div>
+        </div>
+    </section>
+    
+    {{ content }} {% include footer.html %}
+
+</body>
+
+</html>
