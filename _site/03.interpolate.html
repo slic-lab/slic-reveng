@@ -6,7 +6,7 @@
 -->
 <html>
 
-    <head>
+<head>
 	<title>Interpolate to vertexwise resolution | slic-reveng</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -30,9 +30,59 @@
 </head>
 
 
-    <body>
+<head>
+    <!-- ... existing head content ... -->
+  
+    <!-- Optional: Load a custom monospace font -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  
+    <!-- Custom code block styling -->
+    <style>
+      pre code {
+        background-color: rgba(60, 135, 94, 0.306);
+        color: #333333;
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 14px;
+        padding: 1em;
+        border-radius: 8px;
+        display: block;
+        overflow-x: auto;
+      }
+  
+      pre {
+        margin-left: 1.33em;
+        margin-top: -1em;
+        margin-right: 1.33em;
+      }
 
-        <!-- Wrapper -->
+      #banner header.major h1 {
+        color: #333333;
+    }
+  
+    #main.alt p {
+        margin-left: 1.33em;
+        }
+
+        #main.alt p,
+        #main.alt pre {
+        margin-top: 0 !important;
+        margin-bottom: 0.33em;
+        border-top: none !important;
+        box-shadow: none !important;
+        background-image: none !important;
+        }
+
+        #main.alt p::before,
+        #main.alt pre::before {
+        content: none !important;
+        }
+    </style>
+  </head>
+
+<body>
+    <script type="text/javascript">document.body.classList.add("is-loading");</script>
+
+    <!-- Wrapper -->
 <div id="wrapper">
 
 <!-- Header -->
@@ -80,36 +130,109 @@
 		
 	</ul>
 </nav>
+ 
+    
+    <section id="banner" class="style2">
+        <div class="inner">
+            <span class="image">
+                <img src="/slic-reveng/assets/images/aim3.png" alt="">
+            </span>
+            <header class="major">
 
+                <h1>Interpolate to vertexwise resolution</h1>
 
-        <section id="banner" class="style2">
-            <div class="inner">
-                <span class="image">
-                    <img src="/slic-reveng/assets/images/aim3.png" alt="">
-                </span>
-                <header class="major">
+            </header>
+            <div class="content">
 
-                    <h1>Interpolate to vertexwise resolution</h1>
-                    <p style="color: #ffffff; text-transform: none; letter-spacing: 0.28px; font-size: 28px; font-weight: normal;">We are always looking for talented and enthusiastic trainees to join our lab! If you are interested in joining, please <a href="mailto:sara.lariviere@usherbrooke.ca">email us</a> your CV and your grade transcript!</p>
+                
 
-                </header>
-                <div class="content" style="color: #ffffff">
-
-                    
-
-                </div>
             </div>
-        </section>
+        </div>
+    </section>
+    
+    <head>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 
-    <!-- Main -->
-<div id="main">
+<style>
+  .code-box {
+    background: rgba(60,135,94,0.306);
+    border-radius: 8px;
+    padding: 1em;   /* inside padding */
+    margin: 0 1.33em 2em 1.33em;
+  }
 
+  .code-box pre,
+  .code-box code,
+  .code-box code.hljs {
+    background: transparent !important;
+    margin: 0;  /* reset inner spacing */
+    padding: 0;
+  }
 
+  .code-box code,
+  .code-box code.hljs {
+    color: #333333 !important;
+    font-family: 'Fira Code', 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.75;
+    display: block;
+    overflow-x: auto;
+  }
+</style>
+</head>
 
+<!-- S T E P   0 -->
+<div id="main" class="alt">
+<br />
+<p><b>0. Load a brain imaging map, using reverse-engineered data as an example:</b></p>
+<div class="code-box">
+<pre><code class="language-python"># Code not yet available 🚧
+</code></pre></div>
+
+<!-- S T E P   1 -->
+<div id="main" class="alt">
+<p><b>1. For each brain parcel <i>P</i>, identify its neighboring parcels <i>N</i>:</b></p>
+<div class="code-box">
+<pre><code class="language-python"># Code not yet available 🚧
+</code></pre></div>
+
+<!-- S T E P   2 -->
+<div id="main" class="alt">
+<p><b>2a. For each neighboring parcel <i>N<sub>i</sub></i> , identify border vertices shared between <i>P</i> and <i>N<sub>i</sub></i> :</b></p>
+<div class="code-box">
+<pre><code class="language-python"># Code not yet available 🚧
+</code></pre></div>
+
+<p><b>2b. Then, for each vertex <i>v</i> ∈ <i>P</i>, compute its geodesic distance to all border vertices of <i>N<sub>i</sub></i> :</b></p>
+<div class="code-box">
+<pre><code class="language-python"># Code not yet available 🚧
+</code></pre></div>
+
+<!-- S T E P   3 -->
+<div id="main" class="alt">
+<p><b>3. For each vertex <i>v</i> ∈ <i>P</i>, combine the influences from all its neighbors to assign <i>v</i> a final value:</b></p>
+<div class="code-box">
+<pre><code class="language-python"># Code not yet available 🚧
+</code></pre></div>
+
+<!-- S T E P   4 -->
+<div id="main" class="alt">
+<p><b>4. Rescale the resulting values <i>v</i> to ensure the mean of all parcel <i>P</i> matches the original (ENIGMA-derived) statistics:</b></p>
+<div class="code-box">
+<pre><code class="language-python"># Code not yet available 🚧
+</code></pre></div>
+
+<!-- S T E P   5 -->
+<div id="main" class="alt">
+<p><b>5. Apply spatial smoothing to ensure continuous transitions across the cortical surface and reduce artifacts (optional):</b></p>
+<div class="code-box">
+<pre><code class="language-python"># Code not yet available 🚧
+</code></pre></div>
 </div>
-
-
-    <!-- Contact -->
+</div></div></div></div></div>
+ <!-- Contact -->
  <!--
 <section id="contact">
 	<div class="inner">
